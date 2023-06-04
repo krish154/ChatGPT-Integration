@@ -1,3 +1,5 @@
+## Author
+D PRUDHVI KRISHNA
 
 
 <h2>Chat GPT Integration with Command Line</h2>

@@ -42,3 +42,10 @@ Example Commands
    To chat with the Chat GPT model, enter your message or question.
 
     How is the weather today?
+    
+   To avoid conflicts with the existing "write" tool in the /bin directory of Linux, it is recommended not to begin your question with the word "write". If you want to rename the    
+   "write" command to a different name, you can use the following command:
+         
+    mv /bin/write /<your-desired-name>
+   Once you have made the necessary changes to the command name in the Linux /bin directory, you can freely use the program as intended. However, please ensure that you avoid starting 
+   your sentences or questions with words that are already existing commands in the /bin directory of Linux to prevent any potential conflicts.

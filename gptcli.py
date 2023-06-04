@@ -104,12 +104,6 @@ def execute_command(command):
     except (OSError, subprocess.CalledProcessError) as e:
         print(f"Error executing command: {e}")
 
-
-
-
-
-
-
 def is_command_exists(command):
     return any(
         os.access(os.path.join(path, command), os.X_OK)
@@ -136,7 +130,7 @@ if __name__ == '__main__':
     while True:
         try:
             current_working_directory = os.getcwd()
-            prompt = f"{colorize('┌──(', 'blue')}{colorize('root💀kali', 'red')}{colorize(')-[', 'blue')}{colorize(current_working_directory, 'white')}{colorize(']', 'blue')}\n{colorize('└─# ', 'blue')}"
+            prompt = f"{colorize('┌──(', 'blue')}{colorize('ChatGPT💀shell', 'red')}{colorize(')-[', 'blue')}{colorize(current_working_directory, 'white')}{colorize(']', 'blue')}\n{colorize('└─>> ', 'blue')}"
 
             search = read_input(colorize(prompt, 'blue'))
 
